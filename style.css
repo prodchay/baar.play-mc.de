@@ -72,7 +72,6 @@ body {
 footer {
     display: flex;
     justify-content: center;
-    margin-left: 10px;
     margin-bottom: 10px;
     transition: 0.5s;
     font-weight: bold;
@@ -84,4 +83,78 @@ footer {
 
 footer:hover {
     transform: scale(1.1);
+}
+
+@media only screen and (min-width: 820px){
+    .sidebar {
+        display: none;
+    }
+
+}
+
+@media only screen and (min-width: 768px){
+    .sidebar {
+        display: none;
+    }
+    .HeaderCaption {
+        font-size: 67px;
+    }
+    #players {
+        font-weight: bold;
+        font-size: 50px;
+    }
+    
+    #server-status-text {
+        font-size: 50px;
+        font-family: "Outfit", sans-serif;
+    }
+    
+    #server-status-image {
+        margin-top: 10px;
+    }
+
+
+}
+
+@media only screen and (min-width: 375px){
+    .sidebar {
+        display: none;
+    }
+}
+
+@media only screen and (min-width: 360px){
+    .sidebar {
+        display: none;
+    }
+}
+
+@media only screen and (min-width: 1024px){
+    .sidebar {
+        display: none;
+    }
+    .HeaderCaption {
+        font-size: 87px;
+    }
+    #players {
+        font-weight: bold;
+        font-size: 70px;
+    }
+    
+    #server-status-text {
+        font-size: 70px;
+        font-family: "Outfit", sans-serif;
+    }
+    
+    #server-status-image {
+        margin-top: 10px;
+    }
+    .TopServerIP {
+        font-weight: bold;
+        font-size: 30px;
+        padding-bottom: 8px;
+        border-bottom: 5px solid white;
+    }
+    footer {
+        font-size: 30px;
+    }
 }
